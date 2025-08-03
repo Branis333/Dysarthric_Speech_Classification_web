@@ -493,5 +493,6 @@ async def switch_model(model_filename: str = Form(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error switching model: {str(e)}")
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000)

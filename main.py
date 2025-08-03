@@ -80,9 +80,9 @@ async def startup_event():
 # Health and Monitoring Endpoints
 
 @app.get("/")
-async def home(request: Request):
-    """Serve the main dashboard."""
-    return templates.TemplateResponse("dashboard.html", {"request": request})
+async def home():
+    """Redirect to API documentation."""
+    return RedirectResponse(url="/docs")
 
 @app.get("/health")
 async def health_check():

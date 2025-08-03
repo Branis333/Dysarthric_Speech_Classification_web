@@ -1,0 +1,2 @@
+Model,Optimizer,Regularizer,Epochs,Early_Stopping,Layers,Learning_Rate,Accuracy,F1_Score,Precision,Recall,Loss
+Optimized Neural Network (Instance 2),Adam,L2 (0.01),20,Yes,8,0.0005,0.950,0.947,1.000,0.900,0.623

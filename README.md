@@ -1,6 +1,10 @@
 # 🎙️ Dysarthric Speech Classification
 
 AI-powered web app that classifies speech as healthy or dysarthric using deep learning.
+### 1. Youtube Demo Link
+```bash
+https://drive.google.com/file/d/1ALEKzl1EvZCmWdqfjLZFVjq1WmLvnS56/view?usp=sharing
+```
 
 ## ⚡ Quick Setup
 
@@ -13,10 +17,7 @@ pip install -r requirements.txt
 
 ### 2. Start the App
 ```bash
-# Option A: Quick start (FastAPI only)
-python deploy.py
-
-# Option B: Full dashboard (FastAPI + Streamlit)
+#  Full dashboard (FastAPI )
 # Terminal 1:
 uvicorn main:app --reload 
 
